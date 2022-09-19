@@ -60,27 +60,113 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Ik had als eerst een screenreader test afgenomen samen met Raul. M.b.v. een screenreader was hij door de Starbucks site gegaan. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  <img src="images/screenreader2.png" width="375px" alt="homepagina">
 
+  <img src="images/screenreader.png" width="375px" alt="menu">
+
+  Bevindingen:
+  -Hij had moeite met swipen naar beneden.
+  -Schuifbalk is verstopt, uiteindelijk kwam hij erachter dat je met drie vingers moet swipen.
+  -Wordt niet goed aangegeven dat je via de logo naar home kan gaan. 
+
+  Mogelijke oplossing:
+  -Schuifbalk duidelijker aangeven. Misschien soort tips toevoegen.
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Daarna had ik samen met Raul de muis en toetsenbord test gedaan.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Bevindingen:
+  -Deze test was goed te doen op de Starbucks site.
+  -Alles was goed te bedienen.
+  -Hij had alles snel gevonden.
 
+  Mogelijke oplossingen:
+  -Geen, want alles was goed gegaan
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Vervolgens had ik samen met Raul en Bener de ADHD test met een ballon gedaan. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  <img src="images/ballonraul.png" width="375px" alt="ballon test Raul">
+
+  <img src="images/ballonBener.png" width="375px" alt="ballon test Bener">
+
+  Bevindingen Raul:
+  -Kan prima de site besturen met een ballon.
+  -Kon zich concentreren.
+
+  Bevindingen Bener:
+  -Hij kijkt de heletijd naar de ballon.
+  -Kon zich niet zo goed concentreren.
+
+  Mogelijke oplossingen:
+  -Misschien gebruik maken van een one action per screen.
+
+  Ik had ook de Spasmes test gedaan. Dit had ik ook samen met Raul en Bener gedaan.
+
+  <img src="images/spasmesBener.png" width="375px" alt="Spasmes Bener">
+
+  <img src="images/spasmesRaul.png" width="375px" alt="Spasmes Raul"> 
+
+  Bevindingen Bener:
+  -Had het genoemde drankje gevonden.
+  -Ookal trilde zijn hand, hij had het drankje (Pink drink) snel gevonden.
+
+  Bevindingen Raul:
+  -Kan zijn telefoon niet vasthouden, het valt steeds uit zijn handen.
+  -Hij had het drankje (caramel frappucino) snel gevonden. 
+
+  Mogelijke oplossingen:
+  -Zou het niet weten. Want ze hadden hun drankje snel gevonden.
+
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Ten slot had ik een test gehouden met kleurtjes en verschillende soorten brillen. Raul en Bener hadden me hierbij geholpen.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Bevindingen kleurtjes test Raul (kleurenblind):
+  -Ziet er niet aantrekkelijk uit.
+  -Het menu zier er bijvoorbeeld niet lekker uit.
+  -Home pagina ziet er ook niet echt smakelijk uit. 
+
+  <img src="images/kleurhome.png" width="375px" alt="homepagina kleurtest">
+
+  <img src="images/kleurmenu.png" width="375px" alt="menu kleurtest">
+
+  Mogelijke oplossingen:
+  -Andere kleurcontrast gebruiken.
+  -Onderzoeken welke kleuren er goed uitzien voor kleurenblinden.
+
+  Bevindingen bril Cataract Raul:
+  -Moeilijk zichtbaar.
+  -Ziet maar een paar woordjes.
+
+  Mogelijke oplossingen:
+  -Grotere woorden gebruiken.
+  -Een goed kleurencontrast gebruiken, zodat het beter zichtbaar is.
+
+  Bevindingen bril Central Field Loss Raul:
+  -Moet schuin kijken, anders ziet hij het niet.
+
+  <img src="images/brilRaul.png" width="375px" alt="Raul met een test bril op">
+
+  Bevindingen bril Central Field Loss Bener:
+  Home pagina:
+  -Kan het prima lezen
+  -Handig dat er grotere woorden zijn
+  -Witte letters met donkere kleuren maakt het lezen makkelijker.
+  -Bij sommige foto's ziet hij niet wat het precies is. Sommige foto's zijn te klein.
+  -De onderste balk zag hij niet.
+
+  Menu:
+  -Kan de foto's prima zien.
+  -Kan ook de tekst zien
+  -De onderste balk zag hij niet.
+
+  Mogelijke oplossingen:
+  -Grotere afbeeldingen gebruiken.
+  -Geen lichte kleuren gebruiken.
 
 </details>
 
@@ -92,13 +178,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="images/breakdownSchets" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/breakdownSchetsCloseUp" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="images/breakdownSchetsCloseUp2" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -118,20 +204,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | student 1; Anouk     | student 2; Yeliz   | student 3; Katarina       |
+  | ---                  | ---                | ---                       | 
+  | -Moet het responsive | -Stukje            | -Hoe maak ik een blokje   |
+  |  zijn, naast de surf-| responsiveness     | zonder div te gebruiken?  |
+  |  ace plane?          |                    |                           |
+  
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Je hoeft je site niet responsive te maken en een surface plane hebben. Je werkt er maar één uit.
+  - Wat uitleg over hoe we wat responsive kunnen maken
+  - Een blokje kunnen m.b.v. een article maken. Met een background-color voeg je dan een kleur toe.
 
 </details>
 
