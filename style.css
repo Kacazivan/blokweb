@@ -1,0 +1,124 @@
+:root {
+    --basiskleur: #1e3932;
+    --basisfont: 'Open Sans', sans-serif;
+    --kopfont: 'Reem Kufi Fun', sans-serif;
+}
+
+body{
+    margin: 0;
+    font-family: var(--basisfont);
+    color: var(--basiskleur);
+}
+
+/************/
+/* Navigatie*/
+/************/
+header nav {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    width: 80px;
+    margin-left: 0em;
+    margin-top: 1em;
+}
+
+nav { 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); /*link: https://stackoverflow.com/questions/60680652/how-to-add-a-shadow-under-a-navbar-using-css*/
+}
+
+ul{
+    margin-bottom: 0em;
+}
+
+/*icon menu hulpmiddel: https://www.youtube.com/watch?v=dc4bcevbB-0 */
+.wrap{
+    position: absolute;
+    margin-left: 17em;
+    margin-top: -3em;
+}
+
+.icon{
+    width: 30px;
+    height: 2px;
+    background: grey;
+    margin: 5px 0;
+}
+
+/**********/
+/*Content*/
+/*********/
+button:hover { 
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+/*Blokje 1*/
+main img{
+    width: 100%;
+}
+
+article:first-of-type{
+    background-color: #d4e9e2;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    color: var(--basiskleur);
+}
+
+article h2{
+    text-align: center;
+    font-family: var(--kopfont);
+}
+
+article button{
+    margin-left: 50%;
+    transform: translateX(-50%); /*<- Joppe heeft me hiermee geholpen*/
+    font-weight: bold;
+    border-radius: 2em;
+    background-color: transparent;
+    border: 1px solid;
+    width: 8em;
+    height: 2.5em;
+    color: inherit;
+}
+
+article p{
+    margin-left: 1em;
+    margin-right: 1em;
+    font-weight: lighter;
+}
+
+/*Rest van de blokjes*/
+article{
+    background-color: #036242;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    color: white;
+}
+
+/*********/
+/*Footer*/
+/********/
+
+#lijn{
+    background-color: lightgray;
+    width: 97%;
+}
+
+#socialmedia{
+    width: 75%;
+    margin-left: 1em;
+}
+
+article:nth-of-type(7){
+    background-color: white;
+    color: black;
+}
+
+article:nth-of-type(8){
+    background-color: white;
+    color: gray;
+    margin-left: 0.2em;
+}
