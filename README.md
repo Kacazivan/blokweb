@@ -236,20 +236,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | student 1; Anouk | student 2; Yeliz      | student 3; Katarina |
+  | ---              | ---                   | ---                 |
+  | -Hoe kan ik het  | -Gebruik ik de juiste | -Mag je 2 html      |     
+  | beste mijn css   | html tags op de       | documenten hebben?  | 
+  | gebruiken met de | juiste plek?          | -Hoe kan ik het menu|            
+  | 2e pagina?       | -Hoe krijg ik position| icoontje responsive |
+  |                  | absolute responsive?  | maken?              |
+  |                  |                       | -Hoe kan ik de      |
+  |                  |                       | blokjes responsive  |
+  |                  |                       | maken?              |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Je mag meerdere html documenten hebben.
+  - Het icoontje kun je responsive maken met right: 1em; (de 1em kun je natuurlijk zelf aanpassen).
+  - De blokjes kun je responsive maken m.b.v. media queries.
 
 </details>
 
