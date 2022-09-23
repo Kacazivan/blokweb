@@ -19,6 +19,7 @@ button, summary {
     --kopfont: 'Reem Kufi Fun', sans-serif;
     --geenAchtergrond: transparent;
     --kleurWit: white;
+    --kleurZwart: black;
 }
 
 body{
@@ -35,6 +36,13 @@ header nav {
     display: flex;
     flex-direction: column;
 }
+#pompoen{
+    position: absolute;
+    width: 70px;
+    margin-left: 1.5em;
+    margin-top: -0.5em;
+}
+
 
 header img {
     width: 80px;
@@ -50,19 +58,21 @@ ul{
     margin-bottom: 0em;
 }
 
+
 /*icon menu hulpmiddel: https://www.youtube.com/watch?v=dc4bcevbB-0 */
 .wrap{
     position: absolute;
-    right: 1em;
+    right: 1.5em;
     margin-left: 17em;
     margin-top: -3em;
 }
 
 .icon{
-    width: 30px;
+    width: 20px;
     height: 2px;
     background: grey;
-    margin: 5px 0;
+    margin: 4px 0;
+    border-radius: 2em;
 }
 
 
@@ -167,9 +177,25 @@ h3{
     margin-left: 1.3em;
 }
 
+#food{
+    margin-top: 3em;
+}
 
+#menuPagina img{
+    width: 22%;
+}
 
+#menuPagina article{
+    background: var(--geenAchtergrond);
+    color: var(--kleurZwart);
+    margin-left: 1em;
+    display: flex;
+}
 
+#menuPagina article p{
+    margin-top: 1.8em;
+    font-weight: bold
+}
 
 
 
@@ -198,5 +224,24 @@ h3{
     #socialmedia{
         width: 15%;
         padding-top: 1em;
+    }
+
+    #menuPagina img{
+        width: 125px;
+    }
+
+    #menuPagina article p{
+        margin-top: 3em;
+    }
+
+    #menuPagina section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px){
+    #menuPagina article{
+        margin-bottom: -3.5em;
     }
 }
