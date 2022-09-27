@@ -37,16 +37,9 @@ body{
 /* Navigatie */
 /*************/
 header img{
-    width: 80px;
+    width: 55px;
     margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-#pompoen{
-    position: absolute;
-    width: 30px;
-    margin-left: 2.5em;
-    margin-top: 1.4em;
+    margin-left: 0.5em;
 }
 
 .navbar{
@@ -241,6 +234,21 @@ article:nth-of-type(7){
 /***************/
 /* Menu-Pagina */
 /***************/
+
+/*starbucks logo in de nav*/
+#menuPagina header img{
+    width: 55px;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+/*Pompoen illustratie naast het logo*/
+#menuPagina img:nth-of-type(2){
+    width: 2em;
+    margin-top: 0.8em;
+}
+
+
 h2{
     font-family: var(--kopfont);
 }
@@ -250,7 +258,7 @@ h3{
     margin-left: 1.3em;
 }
 
-#food{
+#menuPagina h3:nth-of-type(2){
     margin-top: 3em;
 }
 
@@ -297,8 +305,7 @@ h3{
     }
 
     #menuPagina article:nth-of-type(2) img{
-        height: 130px;
-        margin-top: 1.5em;
+        margin-top: 2.3em;
     }
 
     #menuPagina article:nth-of-type(2) p{
@@ -336,7 +343,7 @@ h3{
 
     #menuPagina main{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         margin: auto;
     }
 
@@ -352,17 +359,42 @@ h3{
     #menuPagina{
         display: grid;
     }
-
 }
 
-@media (max-width: 600px){
+@media (max-width: 799px){
     #menuPagina article{
         margin-bottom: -3.5em;
     }
 }
 
-@media (min-width: 400px){
-    #pompoen{
-        margin-top: 0.9em;
+@media (min-width: 500px){
+    h2{
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
+
+    h3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    #menuPagina main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
+
+    #menuPagina Hr{
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+    #menuPagina{
+        display: grid;
+    }
+}
+
+@media (min-width: 400px){
+    
+
 }
