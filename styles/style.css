@@ -334,9 +334,10 @@ h3{
         grid-column-end: 3;
     }
 
-    #menuPagina{
+    #menuPagina main{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin: auto;
     }
 
     #menuPagina Hr{
@@ -347,6 +348,11 @@ h3{
     article section{
         width: 50%;
     }
+
+    #menuPagina{
+        display: grid;
+    }
+
 }
 
 @media (max-width: 600px){
