@@ -182,6 +182,10 @@ article p{
     font-weight: lighter;
 }
 
+footer article:first-of-type{
+    background: none;
+}
+
 /*Rest van de blokjes*/
 article{
     background-color: #036242;
@@ -217,6 +221,10 @@ article:nth-of-type(8){
     background-color: var(--kleurWit);
     color: gray;
     margin-left: 0.2em;
+}
+
+article:nth-of-type(7){
+    background: none;
 }
 
 
@@ -274,6 +282,15 @@ h3{
     main img{
         width: 50%;
     }
+
+    #menuPagina article:nth-of-type(2) img{
+        height: 130px;
+        margin-top: 1.5em;
+    }
+
+    #menuPagina article:nth-of-type(2) p{
+        margin-top: 4.5em;
+    }
     
     #socialmedia{
         width: 15%;
@@ -286,6 +303,26 @@ h3{
 
     #menuPagina article p{
         margin-top: 3em;
+    }
+
+    h2{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    h3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    #menuPagina{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #menuPagina Hr{
+        grid-column-start: 1;
+        grid-column-end: -1;
     }
 }
 
