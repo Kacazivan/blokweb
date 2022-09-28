@@ -18,12 +18,19 @@ button, summary {
     --kleurGroen: #036242; 
     --navHover: #006241;
     --navLichtGroen: #dff1ec;
-    --basiskleurHalloween: #4d1253;
+    --HalloweenKleurPaars: #4d1253;
     --basisfont: 'Open Sans', sans-serif;
     --kopfont: 'Reem Kufi Fun', sans-serif;
     --geenAchtergrond: transparent;
     --kleurWit: white;
     --kleurZwart: black;
+    --grootte1em: 1em;
+    --grootte0_5em: 0.5em;
+}
+
+/*Eva heeft me hiermee geholpen*/
+:root.halloween body{  /*je kan ook bijv header, p enz bewerken zo*/
+    background-color: turquoise;
 }
 
 body{
@@ -38,8 +45,8 @@ body{
 /*************/
 header img{
     width: 55px;
-    margin-top: 0.5em;
-    margin-left: 0.5em;
+    margin-top: var(--grootte0_5em);
+    margin-left: var(--grootte0_5em);
 }
 
 .navbar{
@@ -212,7 +219,7 @@ hr{
 
 footer img{
     width: 75%;
-    margin-left: 1em;
+    margin-left: var(--grootte1em);
 }
 
 article:nth-of-type(7){
@@ -238,8 +245,8 @@ article:nth-of-type(7){
 /*starbucks logo in de nav*/
 #menuPagina header img{
     width: 55px;
-    margin-top: 0.5em;
-    margin-left: 0.5em;
+    margin-top: var(--grootte0_5em);
+    margin-left: var(--grootte0_5em);
 }
 
 /*Pompoen illustratie naast het logo*/
@@ -269,18 +276,18 @@ h3{
 #menuPagina article{
     background: var(--geenAchtergrond);
     color: var(--kleurZwart);
-    margin-left: 1em;
+    margin-left: var(--grootte1em);
     display: flex;
 }
 
 #menuPagina article p{
     margin-top: 1.8em;
     font-weight: bold;
-    margin-left: 1em;
+    margin-left: var(--grootte1em);
 }
 
 #menuPagina h2{
-    margin-left: 1em;
+    margin-left: var(--grootte1em);
 }
 
 
@@ -308,18 +315,26 @@ h3{
         margin-top: 2.3em;
     }
 
+    #menuPagina article:nth-of-type(3) img{
+        margin-top: 2.3em;
+    }
+
     #menuPagina article:nth-of-type(2) p{
+        margin-top: 4.5em;
+    }
+
+    #menuPagina article:nth-of-type(3) p{
         margin-top: 4.5em;
     }
     
     footer img{
         width: 20%;
         height: 15%;
-        padding-top: 1em;
+        padding-top: var(--grootte1em);
     }
 
     footer article p{
-        padding-left: 1em;
+        padding-left: var(--grootte1em);
         margin: 0;
     }
 
@@ -361,12 +376,6 @@ h3{
     }
 }
 
-@media (max-width: 799px){
-    #menuPagina article{
-        margin-bottom: -3.5em;
-    }
-}
-
 @media (min-width: 500px){
     h2{
         grid-column-start: 1;
@@ -394,7 +403,17 @@ h3{
     }
 }
 
-@media (min-width: 400px){
-    
-
+@media (max-width: 799px){
+    #menuPagina article{
+        margin-bottom: -3.5em;
+    }
 }
+
+@media (min-width: 799px){
+    #menuPagina main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+    }
+}
+
