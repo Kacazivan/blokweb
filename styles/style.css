@@ -302,10 +302,12 @@ footer button:active{
 
 footer button{
     width: 10em;
+    height: 3em;
 }
 
 #menuPagina footer button{
     width: 10em;
+    height: 3em;
 }
 
 #menuPagina footer button:hover { 
