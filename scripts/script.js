@@ -4,6 +4,8 @@ console.log("hi");
 var toggleButton = document.getElementsByClassName('toggle-button')[0]
 var navbarLinks = document.getElementsByClassName('navbar-links')[0]
 var themaSwitcherButton = document.querySelector('footer button');
+var spinElement = document.querySelector('.spinAnimatie');
+var spookjeElement = document.querySelector('.spookje');
 
 toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active');
@@ -11,9 +13,11 @@ toggleButton.addEventListener('click', () => {
 
 
 function themaSwitcher(){
-    console.log('halloween')
+    console.log('halloween');
     document.documentElement.classList.toggle('halloween');
     changeImage();
+    spinElement.style.display = "block";
+    spookjeElement.style.display = "block";
 };
 
 themaSwitcherButton.addEventListener('click', themaSwitcher);
@@ -21,8 +25,8 @@ themaSwitcherButton.addEventListener('click', themaSwitcher);
 
 //https://www.youtube.com/watch?v=1j-XMwrLcg8 --> dit filmpje heeft me geholpen
 function changeImage(){
-    console.log('change logo')
-    var displayImage = document.getElementById('origineelLogo')
+    console.log('change logo');
+    var displayImage = document.getElementById('origineelLogo');
 
     if (displayImage.src.match('images/logoHalloween.png')){
         displayImage.src = 'images/logoHalloweenWit.png'

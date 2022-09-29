@@ -309,22 +309,46 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1; Anouk      | student 2; Yeliz                  | student 3; Katarina |
+  | ---                   | ---                               | ---                 |
+  | dit bespreken         | en dit                            | -Hoe krijg ik die   |
+  | en dat ook nog        | dit als er tijd is                | thema switcher knop |
+  | ...                   | ...                               | helemaal aan het    |
+  | ...                   | ...                               | eind of midden?     |
+  | ...                   | ...                               | -Waarom werkt de    |
+  | ...                   | ...                               | thema switcher niet |
+  | ...                   | ...                               | op de menu pagina?  |
+
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - De thema switcher krijg je in het midden door display: flex op de parent te zetten, in dit
+  geval is dat de footer.
+  - De thema switcher werkt niet op de menu pagina omdat de button niet in een footer hebt
+  gezet zoals in de index
 
 </details>
+
+## Week 1 vs week 5
+
+<details>
+
+  ### week 1 home-pagina:
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="foto week 1 home-pagina">
+
+  ### week 1 menu-pagina:
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="foto week 1 menu-pagina">
+
+  ### week 5 home-pagina:
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="foto week 5 home-pagina">
+
+  ### week 5 home-pagina:
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="foto week 5 menu-pagina">
+</details>
+
+
 
 
 
@@ -362,8 +386,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.youtube.com/watch?v=At4B7A4GOPg <- hulpmiddel voor de nav. Had me ook geholpen
+  bij het responsive maken van de navigatie
+  2. Eva Boogaard heeft me geholpen met de thema switcher. Ze heeft uitgelegd hoe ik het kan 
+  maken en stylen.
+  3. De student assistenten hebben me vooral geholpen als ik vastliep bij bepaalde onderdelen :)
+  4. Ik kreeg ook hulp van de docent zelf, zoals het grid etc.
+  5. https://www.youtube.com/watch?v=1j-XMwrLcg8 <- dit filmpje heeft me geholpen met de 2 verschillende logo's. Dat de originele logo een halloween thema krijgt als je op de theme switcher button klikt.
 
 </details>

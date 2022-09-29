@@ -60,15 +60,11 @@ button, summary {
 }
 
 :root.halloween article{
-    background-color: #cf5301; /*#4d1253 (paars)*/
+    background-color: #cf5301; 
 }
 
 :root.halloween footer article:last-of-type{
     background-color: transparent;
-}
-
-:root.halloween #menuPagina article img{
-    border: 2px solid orange;
 }
 
 /*______________________________________________________________________________________________*/
@@ -184,6 +180,10 @@ header img{
     :root.halloween .navbar-links li a{
         background-color: #47403d;
     }
+
+    .spinAnimatie{
+        margin-top: -5em;
+    }
 }
 
 /*______________________________________________________________________________________________*/
@@ -261,6 +261,14 @@ article section{
     flex-direction: column;
     align-items: center;
     padding: 0 1em;
+}
+
+.spookje{
+    position: absolute;
+    width: 10%;
+    margin-top: -2em;
+    margin-left: 1em;
+    display: none;
 }
 
 /*______________________________________________________________________________________________*/
@@ -353,11 +361,10 @@ article:nth-of-type(7){
 }
 
 /*Pompoen illustratie naast het logo*/
-#menuPagina img:nth-of-type(2){
-    width: 2em;
-    margin-top: 0.8em;
+.spinAnimatie{
+    position: absolute;
+    display: none;
 }
-
 
 h2{
     font-family: var(--kopfont);
@@ -398,6 +405,81 @@ h3{
     justify-content: center;
     margin-top: 3em;
     margin-bottom: 2em;
+}
+
+/*______________________________________________________________________________________________*/
+
+/**********************/
+/* MEDIA QUERIE 500PX */
+/**********************/
+
+@media (min-width: 500px){
+    h2{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    h3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    #menuPagina main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
+
+    #menuPagina Hr{
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+    #menuPagina{
+        display: grid;
+    }
+
+    #menuPagina article img{
+        height: 4.5em;
+        width: 4.5em;
+    }
+
+    #menuPagina footer{
+        grid-column-start: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 499px){
+    .spinAnimatie{
+        margin-top: -5em;
+    }
+}
+
+/*______________________________________________________________________________________________*/
+
+/***********************/
+/* MEDIA QUERIES 799PX */
+/***********************/
+
+@media (max-width: 799px){
+    #menuPagina article{
+        margin-bottom: -3.5em;
+    }
+}
+
+@media (min-width: 799px){
+    #menuPagina main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+    }
+
+    #menuPagina article img{
+        height: 8em;
+        width: 8em;
+    }
 }
 
 /*______________________________________________________________________________________________*/
@@ -508,65 +590,3 @@ h3{
 }
 
 /*______________________________________________________________________________________________*/
-
-/**********************/
-/* MEDIA QUERIE 500PX */
-/**********************/
-
-@media (min-width: 500px){
-    h2{
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-
-    h3{
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-
-    #menuPagina main{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: auto;
-    }
-
-    #menuPagina Hr{
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
-
-    #menuPagina{
-        display: grid;
-    }
-
-    #menuPagina article img{
-        height: 4.5em;
-        width: 4.5em;
-    }
-}
-
-/*______________________________________________________________________________________________*/
-
-/***********************/
-/* MEDIA QUERIES 799PX */
-/***********************/
-
-@media (max-width: 799px){
-    #menuPagina article{
-        margin-bottom: -3.5em;
-    }
-}
-
-@media (min-width: 799px){
-    #menuPagina main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: auto;
-    }
-
-    #menuPagina article img{
-        height: 8em;
-        width: 8em;
-    }
-}
-
