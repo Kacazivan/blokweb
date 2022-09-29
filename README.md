@@ -264,32 +264,44 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 8e werkgroep</summary>
+  -linkjes toevoegen bij de drankjes en eten, zodat de muis/het toetsenbord het pakt.
+  -De p's linkjes geven
+  -De omschrijving van de knoppen wat uitbreiden
+  -linkjes toevoegen bij de artikels, zodat het te horen is.
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  -Je hoort bijvoorbeeld dat er linkjes zijn in de nav, maar je hoort niet waar het naartoe leidt. Bijvoorbeeld bij gift card.
+  -Je hoort bijvoorbeeld dat het een artikel is, maar niet waar het artikel over gaat.
+  -Een omschrijving zetten bij de knoppen, zoals 'learn more about'.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  <img src="images/screenreaderAnouk.png" width="375px" alt="foto van Anouk met screenreader">
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  -Hij pakt de footer niet, omdat het alleen p's zijn.
+  -Hij pakt de drankjes en eten niet.
+  -Verder is het prima te doen.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
-
-  #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  <img src="images/toetsenbordAnouk.png" width="375px" alt="foto van Anouk met toetsenbord">
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Kleurenblind:
+  -Blurred versie is nog leesbaar.
+  -De rest is ook alles goed leesbaar.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Bril color #0779p:
+  -Alles is prima te zien.
+
+  Bril Combined Loss:
+  -Op sommige momenten ziet ze de p wel en sommige momenten niet.
+  -Onderste deel van de footer valt weg, de auteursrechten namelijk.
+
+  Bril Hemifield loss:
+  -Je ziet alles gewoon.
+
+  <img src="images/brilAnouk.png" width="375px" alt="foto van Anouk met toetsenbord">
 
 </details>
 
