@@ -9,6 +9,7 @@ button, summary {
 	cursor: pointer;
 }
 
+/*______________________________________________________________________________________________*/
 
 /*********************/
 /* CUSTOM PROPERTIES */
@@ -18,7 +19,6 @@ button, summary {
     --kleurGroen: #036242; 
     --navHover: #006241;
     --navLichtGroen: #dff1ec;
-    --HalloweenKleurPaars: #4d1253;
     --basisfont: 'Open Sans', sans-serif;
     --kopfont: 'Reem Kufi Fun', sans-serif;
     --geenAchtergrond: transparent;
@@ -28,10 +28,47 @@ button, summary {
     --grootte0_5em: 0.5em;
 }
 
+/*______________________________________________________________________________________________*/
+
+/*Halloween thema switcher*/
 /*Eva heeft me hiermee geholpen*/
 :root.halloween body{  /*je kan ook bijv header, p enz bewerken zo*/
-    background-color: turquoise;
+    background-color: #fbf6e2;
 }
+
+:root.halloween header{
+    background-color: #3b3330;
+}
+
+:root.halloween .navbar-links li a{
+    color: white;
+}
+
+:root.halloween .toggle-button .bar{
+    background-color: white;
+}
+
+:root.halloween article:first-of-type{
+    background-color: #fbd565;
+}
+
+:root.halloween footer article:first-of-type{
+    background-color: transparent;
+}
+
+:root.halloween article{
+    background-color: #cf5301; /*#4d1253 (paars)*/
+}
+
+:root.halloween footer article:last-of-type{
+    background-color: transparent;
+}
+
+:root.halloween #menuPagina article img{
+    border: 2px solid orange;
+}
+
+/*______________________________________________________________________________________________*/
 
 body{
     margin: 0;
@@ -99,6 +136,11 @@ header img{
     border-radius: 2em;
 }
 
+/*______________________________________________________________________________________________*/
+
+/**********************/
+/* Media querie 400px */
+/**********************/
 @media (max-width: 400px){
     .toggle-button{
         display: flex;
@@ -132,7 +174,13 @@ header img{
     .navbar-links.active{
         display: flex;
     }
+
+    :root.halloween .navbar-links li a{
+        background-color: #47403d;
+    }
 }
+
+/*______________________________________________________________________________________________*/
 
 /***********/
 /* Content */
@@ -187,6 +235,9 @@ footer article:first-of-type{
 footer article:nth-of-type(2){
     background: none;
     color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*Rest van de blokjes*/
@@ -205,6 +256,7 @@ article section{
     padding: 0 1em;
 }
 
+/*______________________________________________________________________________________________*/
 
 /**********/
 /* Footer */
@@ -222,9 +274,40 @@ footer img{
     margin-left: var(--grootte1em);
 }
 
+footer article a{
+    text-decoration: none;
+    color: black;
+}
+
 article:nth-of-type(7){
     background-color: var(--kleurWit);
     color: var(--kleurZwart);
+}
+
+footer button:hover { 
+    background-color: rgba(0, 0, 0, 0.329);
+    color: var(--kleurWit);
+}
+
+footer button:active{
+    background-color: var(--kleurZwart);
+}
+
+footer button{
+    width: 10em;
+}
+
+#menuPagina footer button{
+    width: 10em;
+}
+
+#menuPagina footer button:hover { 
+    background-color: rgba(0, 0, 0, 0.329);
+    color: var(--kleurWit);
+}
+
+#menuPagina footer button:active{
+    background-color: var(--kleurZwart);
 }
 
 article:nth-of-type(8){
@@ -237,6 +320,17 @@ article:nth-of-type(7){
     background: none;
 }
 
+#menuPagina button{
+    font-weight: bold;
+    border-radius: 2em;
+    background-color: var(--geenAchtergrond);
+    border: 1px solid;
+    width: 8em;
+    height: 2.5em;
+    color: inherit;
+}
+
+/*______________________________________________________________________________________________*/
 
 /***************/
 /* Menu-Pagina */
@@ -290,10 +384,18 @@ h3{
     margin-left: var(--grootte1em);
 }
 
+#menuPagina footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
 
-/*****************/
-/* Media queries */
-/*****************/
+/*______________________________________________________________________________________________*/
+
+/***********************/
+/* Media querie 800px */
+/***********************/
 @media (min-width: 800px){
     article{
         display: flex;
@@ -338,6 +440,26 @@ h3{
         margin: 0;
     }
 
+    footer article:nth-of-type(2){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer button{
+        margin-right: 3em;
+    }
+
+    #menuPagina footer{
+        margin-bottom: 2em;
+    }
+
+    #menuPagina footer{
+        grid-column-start: 2;
+        display: flex;
+        justify-content: center;
+    }
+
     #menuPagina img{
         width: 125px;
     }
@@ -376,6 +498,12 @@ h3{
     }
 }
 
+/*______________________________________________________________________________________________*/
+
+/**********************/
+/* Media querie 500px */
+/**********************/
+
 @media (min-width: 500px){
     h2{
         grid-column-start: 1;
@@ -401,7 +529,18 @@ h3{
     #menuPagina{
         display: grid;
     }
+
+    #menuPagina article img{
+        height: 4.5em;
+        width: 4.5em;
+    }
 }
+
+/*______________________________________________________________________________________________*/
+
+/***********************/
+/* Media queries 799px */
+/***********************/
 
 @media (max-width: 799px){
     #menuPagina article{
@@ -414,6 +553,11 @@ h3{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin: auto;
+    }
+
+    #menuPagina article img{
+        height: 8em;
+        width: 8em;
     }
 }
 
