@@ -264,10 +264,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 8e werkgroep</summary>
-  -linkjes toevoegen bij de drankjes en eten, zodat de muis/het toetsenbord het pakt.
-  -De p's linkjes geven
-  -De omschrijving van de knoppen wat uitbreiden
-  -linkjes toevoegen bij de artikels, zodat het te horen is.
+  -linkjes toevoegen bij de drankjes en eten, zodat de muis/het toetsenbord het pakt. (dit is me gelukt om te doen)
+  -De p's laten voorlezen (dit lukte me niet, omdat ik niet weet hoe het moet)
+  -De omschrijving van de knoppen wat uitbreiden (heb ik niet gedaan, omdat het er dan best wel lelijk uit ziet. En ik zou ook niet weten hoe je het alleen voor de screenreader kan doen)
+  -linkjes toevoegen bij de artikels, zodat het te horen is. (dit lukte me niet, omdat ik niet weet hoe het moet)
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
@@ -321,16 +321,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1; Anouk      | student 2; Yeliz                  | student 3; Katarina |
-  | ---                   | ---                               | ---                 |
-  | dit bespreken         | en dit                            | -Hoe krijg ik die   |
-  | en dat ook nog        | dit als er tijd is                | thema switcher knop |
-  | ...                   | ...                               | helemaal aan het    |
-  | ...                   | ...                               | eind of midden?     |
-  | ...                   | ...                               | -Waarom werkt de    |
-  | ...                   | ...                               | thema switcher niet |
-  | ...                   | ...                               | op de menu pagina?  |
-
+  | student 1; Anouk      | student 2; Yeliz    | student 3; Katarina |
+  | ---                   | ---                 | ---                 |
+  | -Wat houd toeganke-   | -Waar in de html    | -Hoe krijg ik die   |
+  | lijkheid ++ in?       | moet de animatie    | thema switcher knop |
+  | -Wat is een praktische| staan?              | helemaal aan het    |
+  | manier om je site     | -Moet de form tag   | eind of midden?     |
+  | naar github te zetten?| ook gebruikt worden | -Waarom werkt de    |
+  |                       | bij een search      | thema switcher niet |
+  |                       | input               | op de menu pagina?  |
 
 
   ### Verslag van meeting
@@ -402,7 +401,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   bij het responsive maken van de navigatie
   2. Eva Boogaard heeft me geholpen met de thema switcher. Ze heeft uitgelegd hoe ik het kan 
   maken en stylen.
-  3. De student assistenten hebben me vooral geholpen als ik vastliep bij bepaalde onderdelen :)
+  3. De student assistenten hebben me vooral geholpen als ik vastliep bij bepaalde onderdelen.
   4. Ik kreeg ook hulp van de docent zelf, zoals het grid etc.
   5. https://www.youtube.com/watch?v=1j-XMwrLcg8 <- dit filmpje heeft me geholpen met de 2 verschillende logo's. Dat de originele logo een halloween thema krijgt als je op de theme switcher button klikt.
 

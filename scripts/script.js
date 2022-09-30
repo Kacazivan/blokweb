@@ -16,11 +16,17 @@ function themaSwitcher(){
     console.log('halloween');
     document.documentElement.classList.toggle('halloween');
     changeImage();
-    spinElement.style.display = "block";
-    spookjeElement.style.display = "block";
+    if(spinElement){
+        spinElement.classList.toggle('block');
+    }
+    if(spookjeElement){
+        spookjeElement.classList.toggle('block');
+    }
 };
 
 themaSwitcherButton.addEventListener('click', themaSwitcher);
+
+
 
 
 //https://www.youtube.com/watch?v=1j-XMwrLcg8 --> dit filmpje heeft me geholpen

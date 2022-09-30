@@ -360,7 +360,6 @@ article:nth-of-type(7){
     margin-left: var(--grootte0_5em);
 }
 
-/*Pompoen illustratie naast het logo*/
 .spinAnimatie{
     position: absolute;
     display: none;
@@ -405,6 +404,11 @@ h3{
     justify-content: center;
     margin-top: 3em;
     margin-bottom: 2em;
+}
+
+#menuPagina article a{
+    text-decoration: none;
+    color: black;
 }
 
 /*______________________________________________________________________________________________*/
@@ -590,3 +594,7 @@ h3{
 }
 
 /*______________________________________________________________________________________________*/
+
+.block{
+    display: block;
+}
