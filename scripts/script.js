@@ -37,7 +37,7 @@ themaSwitcherButton.addEventListener('click', themaSwitcher);
 themaSwitcherButton.addEventListener('click', function(){
     setTimeout (function(){
         vleermuisElement.style.display = "none";
-    }, 8800);
+    }, 9000);
 
     setTimeout (function(){
         spinElement.style.display = "none";
