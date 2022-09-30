@@ -271,6 +271,12 @@ article section{
     display: none;
 }
 
+.vleermuis{
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
 /*______________________________________________________________________________________________*/
 
 /**********/
@@ -409,6 +415,14 @@ h3{
 #menuPagina article a{
     text-decoration: none;
     color: black;
+}
+
+.hoed{
+    position: absolute;
+    width: 15%;
+    margin-top: -2em;
+    margin-left: 80%;
+    display: none;
 }
 
 /*______________________________________________________________________________________________*/

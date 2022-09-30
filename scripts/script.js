@@ -6,6 +6,8 @@ var navbarLinks = document.getElementsByClassName('navbar-links')[0]
 var themaSwitcherButton = document.querySelector('footer button');
 var spinElement = document.querySelector('.spinAnimatie');
 var spookjeElement = document.querySelector('.spookje');
+var vleermuisElement = document.querySelector('.vleermuis');
+var hoedElement = document.querySelector('.hoed');
 
 toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active');
@@ -21,6 +23,12 @@ function themaSwitcher(){
     }
     if(spookjeElement){
         spookjeElement.classList.toggle('block');
+    }
+    if(vleermuisElement){
+        vleermuisElement.classList.toggle('block');
+    }
+    if(hoedElement){
+        hoedElement.classList.toggle('block');
     }
 };
 
