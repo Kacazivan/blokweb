@@ -28,13 +28,21 @@ function themaSwitcher(){
         vleermuisElement.classList.toggle('block');
     }
     if(hoedElement){
-        hoedElement.classList.toggle('block');
+        hoedElement.classList.toggle('block')
     }
 };
 
 themaSwitcherButton.addEventListener('click', themaSwitcher);
 
+themaSwitcherButton.addEventListener('click', function(){
+    setTimeout (function(){
+        vleermuisElement.style.display = "none";
+    }, 8800);
 
+    setTimeout (function(){
+        spinElement.style.display = "none";
+    }, 8200);
+});
 
 
 //https://www.youtube.com/watch?v=1j-XMwrLcg8 --> dit filmpje heeft me geholpen
