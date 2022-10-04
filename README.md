@@ -264,7 +264,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 8e werkgroep</summary>
   -linkjes toevoegen bij de drankjes en eten, zodat de muis/het toetsenbord het pakt. (dit is me gelukt om te doen)
   -De p's laten voorlezen (dit lukte me niet, omdat ik niet weet hoe het moet)
-  -De omschrijving van de knoppen wat uitbreiden (heb ik niet gedaan, omdat het er dan best wel lelijk uit ziet. En ik zou ook niet weten hoe je het alleen voor de screenreader kan doen)
+  -De omschrijving van de knoppen wat uitbreiden (heb ik uiteindelijk niet gedaan, omdat het er dan best wel lelijk uit ziet. En ik zou ook niet weten hoe je het alleen voor de screenreader kan doen)
   -linkjes toevoegen bij de artikels, zodat het te horen is. (dit lukte me niet, omdat ik niet weet hoe het moet)
 
   ### Bevindingen
@@ -343,20 +343,66 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Week 1 vs week 5
+## eerste versie vs laatste versie
 
 <details>
-  ### week 1 home-pagina:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="foto week 1 home-pagina">
 
-  ### week 1 menu-pagina:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="foto week 1 menu-pagina">
+  ### eerste versie home-pagina:
+  Zoals je kunt zien heeft de home pagina geen mooie layout. Alles is veels te groot, zoals de afbeeldingen. Het was ook niet echt responsive. 
 
-  ### week 5 home-pagina:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="foto week 5 home-pagina">
+  <img src="images/versie1.png" width="375px" alt="foto week 1 home-pagina">
+  <img src="images/versie1.2.png" width="375px" alt="foto week 1 home-pagina">
+  <img src="images/versie1.3.png" width="375px" alt="foto week 1 home-pagina">
 
-  ### week 5 home-pagina:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="foto week 5 menu-pagina">
+  ### eerste versie menu-pagina:
+  In de eerste versie van mijn site was ik eigenlijk alleen bezig met de home pagina, dus ik had op dat moment geen menu pagina.
+
+  ### laatste versie home-pagina:
+  Nou het is me uiteindelijk gelukt om mijn site responsive te maken! Waar ik natuurlijk erg blij mee ben. Aan het begin van dit blok leek het me erg leuk om zowel als responsiveness als surface plane toe te passen in mijn site. En het is me gelukt om een paar surface plane punten in mijn site te verwerken! 
+
+  De home pagina zonder dat de theme switcher aan is, ziet er zo uit:
+  Op mobiel formaat:
+  <img src="images/laatsteVersieMobiel.png" width="375px" alt="foto week 5 home-pagina Mobiel">
+
+  Op Ipad formaat:
+  <img src="images/laatsteVersieIpad.png" width="375px" alt="foto week 5 home-pagina Ipad">
+
+  Op laptop formaat:
+  <img src="images/laatsteVersieLaptop.png" width="375px" alt="foto week 5 home-pagina Laptop">
+
+
+  De home pagina met de theme switcher aan, ziet er zo uit:
+  Op mobiel formaat:
+  <img src="images/laatsteVersieHalloweenMobiel.png" width="375px" alt="foto week 5 home-pagina Halloween Mobiel">
+
+  Op Ipad formaat:
+  <img src="images/laatsteVersieHalloweenIpad.png" width="375px" alt="foto week 5 home-pagina Halloween Ipad">
+
+  Op laptop formaat:
+  <img src="images/laatsteVersieHalloweenLaptop.png" width="375px" alt="foto week 5 home-pagina Halloween Laptop">
+
+
+
+  ### laatste versie home-pagina:
+  De menu pagina zonder dat de theme switcher aan is, ziet er zo uit:
+  Op mobiel formaat:
+  <img src="images/menuMobiel.png" width="375px" alt="foto week 5 menu-pagina Mobiel">
+
+  Op Ipad formaat:
+  <img src="images/menuIpad.png" width="375px" alt="foto week 5 menu-pagina Ipad">
+
+  Op laptop formaat:
+  <img src="images/menuLaptop.png" width="375px" alt="foto week 5 menu-pagina Laptop">
+
+  De menu pagina met de theme switcher aan, ziet er zo uit:
+  Op mobiel formaat:
+  <img src="images/menuHalloweenMobiel.png" width="375px" alt="foto week 5 menu-pagina Halloween Mobiel">
+
+  Op Ipad formaat:
+  <img src="images/menuHalloweenIpad.png" width="375px" alt="foto week 5 menu-pagina Halloween Ipad">
+
+  Op laptop formaat:
+  <img src="images/menuHalloweenLaptop.png" width="375px" alt="foto week 5 menu-pagina Halloween Laptop">
 </details>
 
 
@@ -404,5 +450,4 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. De student assistenten hebben me vooral geholpen als ik vastliep bij bepaalde onderdelen.
   4. Ik kreeg ook hulp van de docent zelf, zoals het grid etc.
   5. https://www.youtube.com/watch?v=1j-XMwrLcg8 <- dit filmpje heeft me geholpen met de 2 verschillende logo's. Dat de originele logo een halloween thema krijgt als je op de theme switcher button klikt.
-
 </details>
