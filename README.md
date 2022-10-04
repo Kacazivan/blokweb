@@ -57,7 +57,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  De bevindingen heb ik bij de de verschillende onderdelen gezet.
 
   #### Screenreader
   Ik had als eerst een screenreader test afgenomen samen met Raul. M.b.v. een screenreader was hij door de Starbucks site gegaan. 
@@ -198,8 +198,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  In het begin had ik moeite met het maken van de blokjes, ik wist niet hoe je dit moest doen. Tijdens het voortgangsgesprek kwam ik erachter dat je het gewoon met een article kunt doen.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -230,8 +229,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik ben nog niet echt ver gekomen met mijn site, ben nog maar pas bij mijn eerste pagina. Ik heb moeite het maken van een responsive menu.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -315,8 +313,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  In week 4 hheb ik veel kunnen doen. Het is me bijvoirbeeld gelukt om de site responsive te maken (ik had daar wel moeite mee, maar het is toch gelukt). Ik wil nog een paar surface plane punten erin verwerken, dat lijkt me erg leuk. Zoals een Halloween thema switcher. Het lukt me niet om de thema switcher ook op mijn menu pagina toe te passen. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -342,10 +339,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 </details>
 
+
+
+
+
 ## Week 1 vs week 5
 
 <details>
-
   ### week 1 home-pagina:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="foto week 1 home-pagina">
 
