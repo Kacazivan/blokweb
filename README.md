@@ -472,7 +472,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit was lastig/Is niet gelukt:
-  Wat me bijvoorbeeld niet is gelukt, is het toegankelijker maken m.b.v. de screenreader. Sommige onderdelen op mijn site pakt de screenreader niet, dit wilde ik verbeteren. Maar het lukte me niet echt. Dus als ik wat meer tijd had zou ik me er wel in verdiepen!
+  Wat me bijvoorbeeld niet is gelukt, is het toegankelijker maken m.b.v. de screenreader. Sommige onderdelen op mijn site pakt de screenreader niet en dit wilde ik verbeteren. Maar het lukte me niet echt. Dus als ik wat meer tijd had zou ik me er wel in verdiepen!
 </details>
 
 
