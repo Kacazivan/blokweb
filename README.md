@@ -268,7 +268,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   -linkjes toevoegen bij de artikels, zodat het te horen is. (dit lukte me niet, omdat ik niet weet hoe het moet)
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  -linkjes toevoegen bij de drankjes en eten, zodat de muis/het toetsenbord het pakt. (dit is me gelukt om te doen)
+  -De p's laten voorlezen (dit lukte me niet, omdat ik niet weet hoe het moet)
+  -De omschrijving van de knoppen wat uitbreiden (heb ik uiteindelijk niet gedaan, omdat het er dan best wel lelijk uit ziet. En ik zou ook niet weten hoe je het alleen voor de screenreader kan doen)
+  -linkjes toevoegen bij de artikels, zodat het te horen is. (dit lukte me niet, omdat ik niet weet hoe het moet)
 
   #### Screenreader
   -Je hoort bijvoorbeeld dat er linkjes zijn in de nav, maar je hoort niet waar het naartoe leidt. Bijvoorbeeld bij gift card.
@@ -383,7 +386,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-  ### laatste versie home-pagina:
+  ### laatste versie menu-pagina:
   De menu pagina zonder dat de theme switcher aan is, ziet er zo uit:
   Op mobiel formaat:
   <img src="images/menuMobiel.png" width="375px" alt="foto week 5 menu-pagina Mobiel">
@@ -416,18 +419,60 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  ### home-pagina:
+  De home pagina zonder dat de theme switcher aan is, ziet er zo uit:
+  Op mobiel formaat:
+  <img src="images/laatsteVersieMobiel.png" width="375px" alt="foto week 5 home-pagina Mobiel">
+
+  Op Ipad formaat:
+  <img src="images/laatsteVersieIpad.png" width="375px" alt="foto week 5 home-pagina Ipad">
+
+  Op laptop formaat:
+  <img src="images/laatsteVersieLaptop.png" width="375px" alt="foto week 5 home-pagina Laptop">
+
+
+  De home pagina met de theme switcher aan, ziet er zo uit:
+  Op mobiel formaat:
+  <img src="images/laatsteVersieHalloweenMobiel.png" width="375px" alt="foto week 5 home-pagina Halloween Mobiel">
+
+  Op Ipad formaat:
+  <img src="images/laatsteVersieHalloweenIpad.png" width="375px" alt="foto week 5 home-pagina Halloween Ipad">
+
+  Op laptop formaat:
+  <img src="images/laatsteVersieHalloweenLaptop.png" width="375px" alt="foto week 5 home-pagina Halloween Laptop">
+
+
+
+  ### menu-pagina:
+  De menu pagina zonder dat de theme switcher aan is, ziet er zo uit:
+  Op mobiel formaat:
+  <img src="images/menuMobiel.png" width="375px" alt="foto week 5 menu-pagina Mobiel">
+
+  Op Ipad formaat:
+  <img src="images/menuIpad.png" width="375px" alt="foto week 5 menu-pagina Ipad">
+
+  Op laptop formaat:
+  <img src="images/menuLaptop.png" width="375px" alt="foto week 5 menu-pagina Laptop">
+
+  De menu pagina met de theme switcher aan, ziet er zo uit:
+  Op mobiel formaat:
+  <img src="images/menuHalloweenMobiel.png" width="375px" alt="foto week 5 menu-pagina Halloween Mobiel">
+
+  Op Ipad formaat:
+  <img src="images/menuHalloweenIpad.png" width="375px" alt="foto week 5 menu-pagina Halloween Ipad">
+
+  Op laptop formaat:
+  <img src="images/menuHalloweenLaptop.png" width="375px" alt="foto week 5 menu-pagina Halloween Laptop">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb geleerd hoe ik het grid moet toepassen. Ik vind het nog steeds wel een beetje moeilijk om het toe te passen in mijn code, maar ik snap het wel beter! Ik heb bijvoorbeeld het grid toegepast in mijn menu pagina.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="images/menuIpad.png" width="375px" alt="foto week 5 menu-pagina Ipad">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Wat me bijvoorbeeld niet is gelukt, is het toegankelijker maken m.b.v. de screenreader. Sommige onderdelen op mijn site pakt de screenreader niet, dit wilde ik verbeteren. Maar het lukte me niet echt. Dus als ik wat meer tijd had zou ik me er wel in verdiepen!
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -448,6 +493,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. Eva Boogaard heeft me geholpen met de thema switcher. Ze heeft uitgelegd hoe ik het kan 
   maken en stylen.
   3. De student assistenten hebben me vooral geholpen als ik vastliep bij bepaalde onderdelen.
-  4. Ik kreeg ook hulp van de docent zelf, zoals het grid etc.
+  4. Ik kreeg ook hulp van de docent zelf, zoals voor het grid.
   5. https://www.youtube.com/watch?v=1j-XMwrLcg8 <- dit filmpje heeft me geholpen met de 2 verschillende logo's. Dat de originele logo een halloween thema krijgt als je op de theme switcher button klikt.
 </details>
+
+
+
+
+
+## Illustraties
+
+<details>
+  De halloween illustraties/animaties heb ik zelf gemaakt in Procreate:
+  <img src="images/animatieSpin.gif" width="375px" alt="animatie van een spin">
+  <img src="images/animatieVleermuis.gif" width="375px" alt="animatie van een vleermuis">
+  <img src="images/hoedHeks.png" width="375px" alt="hoed van een heks">
+  <img src="images/spin.png" width="375px" alt="spin">
+  <img src="images/spookje.png" width="375px" alt="spookje">
+</details>
+
+
