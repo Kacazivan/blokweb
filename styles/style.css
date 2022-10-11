@@ -427,6 +427,93 @@ h3{
 
 /*______________________________________________________________________________________________*/
 
+/***************/
+/* INFO-PAGINA */
+/***************/
+#infoPagina main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.2);
+}
+
+.form-title{
+    font-family: var(--kopfont);
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 6px;
+    color: var(--basiskleur);
+    border-bottom: solid 2px var(--basiskleur);
+}
+
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    pad: 20px 0;
+}
+
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.user-input-box label{
+    width: 95%;
+    color: black;
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+}
+
+.form-submit-btn input{
+    cursor: pointer;
+}
+
+.form-submit-btn{
+    margin-top: 40px;
+}
+
+.form-submit-btn input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: rgba(209, 209, 209);
+    background: grey;
+}
+
+.form-submit-btn input:hover{
+    background: darkslategray;
+    color: rgba(255, 255, 255);
+}
+
+/*______________________________________________________________________________________________*/
+
 /**********************/
 /* MEDIA QUERIE 500PX */
 /**********************/
@@ -472,6 +559,32 @@ h3{
 @media (max-width: 499px){
     .spinAnimatie{
         margin-top: -5em;
+    }
+}
+
+/*______________________________________________________________________________________________*/
+
+/***********************/
+/* MEDIA QUERIES 600PX */
+/***********************/
+
+@media (max-width:600px){
+    .container{
+        min-width: 280px;
+    }
+
+    .user-input-box{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .main-user-info{
+        max-height: 380px;
+        overflow: auto;
+    }
+
+    .main-user-info::-webkit-scrollbar{
+        width: 0;
     }
 }
 

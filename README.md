@@ -262,11 +262,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 8e werkgroep</summary>
-  -linkjes toevoegen bij de drankjes en eten, zodat de muis/het toetsenbord het pakt. (dit is me gelukt om te doen)
-  -De p's laten voorlezen (dit lukte me niet, omdat ik niet weet hoe het moet)
-  -De omschrijving van de knoppen wat uitbreiden (heb ik uiteindelijk niet gedaan, omdat het er dan best wel lelijk uit ziet. En ik zou ook niet weten hoe je het alleen voor de screenreader kan doen)
-  -linkjes toevoegen bij de artikels, zodat het te horen is. (dit lukte me niet, omdat ik niet weet hoe het moet)
-
+  
   ### Bevindingen
   -linkjes toevoegen bij de drankjes en eten, zodat de muis/het toetsenbord het pakt. (dit is me gelukt om te doen)
   -De p's laten voorlezen (dit lukte me niet, omdat ik niet weet hoe het moet)

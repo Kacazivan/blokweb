@@ -1,7 +1,7 @@
 // JavaScript Document
 console.log("hi");
 
-var toggleButton = document.getElementsByClassName('toggle-button')[0]
+var toggleButton = document.getElementsByClassName('toggle-button')[0] //[0]=hij selecteert hier de eerste array en dat is de toggle button
 var navbarLinks = document.getElementsByClassName('navbar-links')[0]
 var themaSwitcherButton = document.querySelector('footer button');
 var spinElement = document.querySelector('.spinAnimatie');
