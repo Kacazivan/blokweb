@@ -71,8 +71,15 @@ button, summary {
 
 body{
     margin: 0;
+    padding: 0;
     font-family: var(--basisfont);
     color: var(--basiskleur);
+}
+
+body header h1{
+    font-family: var(--kopfont);
+    text-align: center;
+    margin-bottom: -0.5em;
 }
 
 /*______________________________________________________________________________________________*/
@@ -430,11 +437,49 @@ h3{
 /***************/
 /* INFO-PAGINA */
 /***************/
-#infoPagina main{
+
+#infoPagina h1{
+    font-family: var(--kopfont);
+    margin-left: var(--grootte0_5em);
+    font-size: 1.5em;
+}
+
+#infoPagina p{
+    margin-left: var(--grootte1em);
+    margin-right: var();
+    text-align: center;
+}
+
+#infoPagina section article{
     display: flex;
-    height: 100vh;
+    flex-direction: column;
+}
+
+
+/*YT video*/
+.iframe-container{
+    position: relative;
+    width: 30em;
+    padding-bottom: 22em;
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+
+/*Formulier*/
+#infoPagina article{
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#infoPagina article:first-of-type{
+    background-color: transparent;
 }
 
 .container{
@@ -518,6 +563,15 @@ h3{
 /* MEDIA QUERIE 500PX */
 /**********************/
 
+@media (max-width: 500px){
+    .iframe-container iframe{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+    }
+}
+
 @media (min-width: 500px){
     h2{
         grid-column-start: 1;
@@ -553,6 +607,11 @@ h3{
         grid-column-start: 1;
         display: flex;
         justify-content: flex-end;
+    }
+
+    .iframe-container iframe{
+        width: 80%;
+        height: 80%;
     }
 }
 
@@ -717,6 +776,11 @@ h3{
 
     #menuPagina{
         display: grid;
+    }
+
+    .iframe-container iframe{
+        width: 30em;
+        height: 20em;
     }
 }
 
