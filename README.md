@@ -473,6 +473,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
+## Herkansing
+
+<details>
+  Voor de herkansing heb ik nog een info pagina gemaakt. Daarin heb ik een video en een formulier toegevoegd. De afgelopen weken had ik helaas niet zoveel tijd, omdat ik veel moest werken en ik moest mijn aandacht besteden aan het project + autotheorie. Als ik wat meer tijd had, had ik het natuurlijk wat mooier gemaakt :).
+</details>
+
+
+
 
 
 ## Bronnenlijst
@@ -489,6 +497,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. De student assistenten hebben me vooral geholpen als ik vastliep bij bepaalde onderdelen.
   4. Ik kreeg ook hulp van de docent zelf, zoals voor het grid.
   5. https://www.youtube.com/watch?v=1j-XMwrLcg8 <- dit filmpje heeft me geholpen met de 2 verschillende logo's. Dat de originele logo een halloween thema krijgt als je op de theme switcher button klikt.
+  6. https://www.youtube.com/watch?v=9YffrCViTVk
+
 </details>
 
 
